@@ -69,8 +69,8 @@ const InputForm = () => {
 						}>
 						<option value={'food'}>Food</option>
 						<option value={'transport'}>Transport</option>
-						<option value={'Shopping'}>Shopping</option>
-						<option value={'Other'}>Other</option>
+						<option value={'shopping'}>Shopping</option>
+						<option value={'other'}>Other</option>
 					</select>
 
 					<button type='submit'>Submit</button>

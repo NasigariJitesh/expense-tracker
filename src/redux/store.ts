@@ -1,6 +1,6 @@
 import { PayloadAction, configureStore, createSlice } from '@reduxjs/toolkit';
 
-interface ExpenseState {
+export interface ExpenseState {
 	name: string;
 	value: number;
 	type: 'credit' | 'debit';
